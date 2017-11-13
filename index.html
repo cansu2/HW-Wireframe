@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework 1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	
+		<header>
+			<h1>Cities I've seen in 2017</h1>
+		
+	    </header>
+
+	    <nav>
+	    		<a href="https://en.wikipedia.org/wiki/Denver" class="first">Denver</a>
+	    		<a href="https://en.wikipedia.org/wiki/Chicago" class="second">Chicago</a>
+	    		<a href="https://en.wikipedia.org/wiki/Istanbul" class="third">Istanbul</a>
+	    		<a href="https://en.wikipedia.org/wiki/Los_Angeles" class="fourth">Los Angeles</a>
+	    		<a href="https://en.wikipedia.org/wiki/New_York_City" class="fifth">New York City</a>
+	    	
+	    </nav>
+	    <div>
+	    	
+	    	<section>
+	    		
+	    		<article>
+	    			<h2>Intro</h2>
+
+	    			<p>I like to travel and learn new places. Places are not the only thing make me excited about travelling also I love eating different foods in different cities!</p>
+
+	    
+	    	
+	    			<h1>Drinks</h1>
+	    			<p>
+	    				In this title I have to categorize as Istanbul and rest of the States's cities. You can drink so many different beer in most of the cities in the States. Although Istanbul is not that much rich as other cities as for beer but if you are in Istanbul, you shouldn't leave from city before drink raki.
+	    			</p>
+
+	    			<h1>Foods</h1>
+
+
+	    		    <p>
+	    					In Denver, you can find most of the international food but still if let me compare rest of the cities, Denver still need to get more diversity for food.
+	    		    </p>
+	    			<p>
+	    				   Oh Chicago.. Deep dish pizza.
+	    			</p>
+	    			<p>
+	    					ASHASDKJ
+	    			</p>
+	    			<p>
+	    			</p>
+	    			<p>
+	    			</p>
+	    		</article>
+	    	</section>	
+	    			
+
+	        <aside>
+
+	        	<h2 class="w-3-center">Pictures</h2>
+
+	        	<img class="mySlides" src="http://gotravelaz.com/wp-content/uploads/images/Denver.jpg" id="image1">
+                <img class="mySlides" src="http://d5wt70d4gnm1t.cloudfront.net/media/articles/815/artful_traveler_guide_to_chicago_900x450_c.jpg" id="image2">
+                <img class="mySlides" src="https://media-cdn.tripadvisor.com/media/photo-s/05/9c/58/fc/tarihi-istanbul.jpg" id="image3">
+                <img class="mySlides" src="https://www.lacity.org/sites/g/files/wph781/f/styles/tiled_homepage_blog/public/bigstock-sun-176475085.jpg?itok=Q9NNNBYj" id="image4">
+                <img class="mySlides" src="https://www.nycgo.com/images/uploads/homepage/Empire-State-Building-Observatory-Tom-Perry-2618.jpg" id="image5">
+
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+
+ 	        </aside>
+	    	
+	    	<footer>Copyright © 2017</footer>
+	    		
+
+	    </div>	
+
+
+	 <script>
+	 	var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        	 showDivs(slideIndex += n);
+        	}
+        function showDivs(n) {
+        	var i;
+        	var x = document.getElementsByClassName("mySlides");
+        	if (n > x.length) {slideIndex = 1}
+        	if (n < 1) {slideIndex = x.length}
+        	for (i = 0; i < x.length; i++) {
+        	   x[i].style.display = "none";	
+        	}
+        	x[slideIndex-1].style.display = "block";
+        	}   
+
+     </script>    	
+
+	
+</body>
+</html>
+	    	
+
+
+
+
+
+
+	    			
+	    		
+
+
+
+
+
+
+
+
